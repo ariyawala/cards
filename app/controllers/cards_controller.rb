@@ -1,6 +1,6 @@
 class CardsController < ApplicationController
   before_action :set_card, only: [:show, :edit, :update, :destroy]
-  
+
   def new
     @card = Card.new
     @list = List.find(params[:list_id])

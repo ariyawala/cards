@@ -38,5 +38,4 @@ class ListsController < ApplicationController
   def find_list
     @list = List.find(params[:id])
   end
-
 end
